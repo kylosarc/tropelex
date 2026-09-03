@@ -187,8 +187,12 @@ _SCHEMA_RELEVANT_FILES = (
     "core/sync/importer.py",
 )
 _SCHEMA_RELEVANT_MARKERS = (
-    "def account_export", "def account_import", "class AccountImportRequest",
-    "def benchmarks_export", "def benchmarks_import", "class BenchmarkImportRequest",
+    "def account_export", "async def account_export",
+    "def account_import", "async def account_import",
+    "class AccountImportRequest",
+    "def benchmarks_export", "async def benchmarks_export",
+    "def benchmarks_import", "async def benchmarks_import",
+    "class BenchmarkImportRequest",
     "class HandoffPacket", "class ContextSlice", "class HandoffCompletenessFinding",
     "class SafetyMetadata",
     "def export_memory_data", "def import_memory_data",
@@ -228,7 +232,7 @@ def check_schema_version_awareness(context: dict[str, Any]) -> CheckResult:
     repo_path = Path(context.get("repo_path", "."))
     base = context.get("diff_base", "origin/main")
 
-    changed_text = _git(repo_path, "diff", "--name-only", f"{base}...HEAD")
+    changed_text = _git(repo_path, "diff", "--no-ext-diff", "--name-only", f"{base}...HEAD")
     if changed_text is None:
         return CheckResult(
             name="check_schema_version_awareness", event=PRE_PUSH, passed=True,
@@ -251,7 +255,7 @@ def check_schema_version_awareness(context: dict[str, Any]) -> CheckResult:
             "and core/version.py was also touched",
         )
 
-    diff_text = _git(repo_path, "diff", f"{base}...HEAD", "--", *relevant_changed) or ""
+    diff_text = _git(repo_path, "diff", "--no-ext-diff", f"{base}...HEAD", "--", *relevant_changed) or ""
     touched_markers = sorted(marker for marker in _SCHEMA_RELEVANT_MARKERS if marker in diff_text)
 
     if not touched_markers:
@@ -299,7 +303,7 @@ def check_local_docs_in_sync(context: dict[str, Any]) -> CheckResult:
     repo_path = Path(context.get("repo_path", "."))
     base = context.get("diff_base", "origin/main")
 
-    changed_text = _git(repo_path, "diff", "--name-only", f"{base}...HEAD")
+    changed_text = _git(repo_path, "diff", "--no-ext-diff", "--name-only", f"{base}...HEAD")
     if changed_text is None:
         return CheckResult(
             name="check_local_docs_in_sync", event=PRE_PUSH, passed=True,
