@@ -143,7 +143,7 @@ Tropelex doubles as empirical safety infrastructure for autonomous agents. For t
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/tropelex.git
+git clone https://github.com/kylosarc/tropelex.git
 cd tropelex
 
 # With uv (recommended)
