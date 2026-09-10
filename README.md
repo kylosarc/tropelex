@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"><img src="images/tropelex-hero-static.jpg?v=3" alt="Tropelex — The Rationale Engine for AI"/></p>
+<p align="center"><img src="images/tropelex-hero-static.jpg?v=4" alt="Tropelex — The Rationale Engine for AI"/></p>
 
 > [!NOTE]
 > **AI Memory System with Safety and Alignment Infrastructure**
@@ -25,7 +25,7 @@ Tropelex accumulates knowledge across projects (decisions, patterns, preferences
 
 The same mechanisms that make an agent's memory useful also make its behavior auditable: an immutable decision history an agent must cross-reference before acting, drift detection that catches code silently diverging from stated intent, and multi-agent handoff that carries rationale across agent boundaries instead of losing it. See [`SAFETY.md`](SAFETY.md) for how these properties apply to agent safety and alignment work.
 
-<p align="center"><img src="images/diagrams/architecture.png?v=3" alt="Tropelex architecture: clients (Claude Code/MCP, Web Dashboard, Emacs, OpenCode, CLI) talk to the Tropelex FastAPI server, which routes through Safety Gates into the Memory Manager, Decision Tree, and Tropebook, all persisted to gitignored local JSON with a hash-chained audit log"/></p>
+<p align="center"><img src="images/diagrams/architecture.png?v=4" alt="Tropelex architecture: clients (Claude Code/MCP, Web Dashboard, Emacs, OpenCode, CLI) talk to the Tropelex FastAPI server, which routes through Safety Gates into the Memory Manager, Decision Tree, and Tropebook, all persisted to gitignored local JSON with a hash-chained audit log"/></p>
 
 <!-- Rendered as a static image (source: images/diagrams/architecture.mmd) rather than a
      live mermaid block, the GitHub mobile app doesn't render mermaid and falls back to
@@ -111,7 +111,7 @@ The same mechanisms that make an agent's memory useful also make its behavior au
 
 Tropelex doubles as empirical safety infrastructure for autonomous agents. For the alignment reframing of its features, threat models, and grant-specific technical summaries, see:
 
-<p align="center"><img src="images/diagrams/safety-gate.png?v=3" alt="Safety gate flow: a submitted decision without an explicit safety category is blocked with a suggested category; once written, it gets a content hash, an audit event chained to the prior entry's hash, a Decision Tree update, and ongoing Drift/Ghost contradiction checks"/></p>
+<p align="center"><img src="images/diagrams/safety-gate.png?v=4" alt="Safety gate flow: a submitted decision without an explicit safety category is blocked with a suggested category; once written, it gets a content hash, an audit event chained to the prior entry's hash, a Decision Tree update, and ongoing Drift/Ghost contradiction checks"/></p>
 
 <!-- Rendered as a static image (source: images/diagrams/safety-gate.mmd). See the note
      on the architecture diagram above for why, and the regeneration command. -->
@@ -197,7 +197,7 @@ Visit **http://localhost:8766/hijacker**. Paste any verbose prompt and get it AI
 
 What the loop above actually looks like once an agent is wired up: each session both draws on and adds to the same memory, so context compounds instead of resetting every time:
 
-<p align="center"><img src="images/diagrams/workflow.png?v=3" alt="Session workflow loop: a session starts by pulling context via get_context_bundle, work happens with capture_decision gated on an explicit safety category and checked by Ghost/Contradiction checks, the session ends with end_session recording a summary and diff, and the updated patterns/skills/history feed the next session's context bundle"/></p>
+<p align="center"><img src="images/diagrams/workflow.png?v=4" alt="Session workflow loop: a session starts by pulling context via get_context_bundle, work happens with capture_decision gated on an explicit safety category and checked by Ghost/Contradiction checks, the session ends with end_session recording a summary and diff, and the updated patterns/skills/history feed the next session's context bundle"/></p>
 
 <!-- Rendered as a static image (source: images/diagrams/workflow.mmd). See the note
      on the architecture diagram above for why, and the regeneration command. -->
