@@ -1,10 +1,10 @@
 # Tropelex
 
 <p align="center">
-  <a href="https://shansimmons-eng.github.io/tropelex/"><img src="https://img.shields.io/badge/Docs-Full%20Guide-7c3aed?style=for-the-badge&logo=bookstack&logoColor=white" alt="Docs"/></a>
-  <a href="https://shansimmons-eng.github.io/tropelex/api-reference.html"><img src="https://img.shields.io/badge/API-Reference-0284c7?style=for-the-badge&logo=fastapi&logoColor=white" alt="API Reference"/></a>
-  <a href="https://shansimmons-eng.github.io/tropelex/getting-started.html"><img src="https://img.shields.io/badge/Getting%20Started-Guide-059669?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started"/></a>
-  <a href="https://shansimmons-eng.github.io/tropelex/faq.html"><img src="https://img.shields.io/badge/FAQ-Reference-d97706?style=for-the-badge&logo=help-circle&logoColor=white" alt="FAQ"/></a>
+  <a href="https://kylosarc.github.io/tropelex/"><img src="https://img.shields.io/badge/Docs-Full%20Guide-7c3aed?style=for-the-badge&logo=bookstack&logoColor=white" alt="Docs"/></a>
+  <a href="https://kylosarc.github.io/tropelex/api-reference.html"><img src="https://img.shields.io/badge/API-Reference-0284c7?style=for-the-badge&logo=fastapi&logoColor=white" alt="API Reference"/></a>
+  <a href="https://kylosarc.github.io/tropelex/getting-started.html"><img src="https://img.shields.io/badge/Getting%20Started-Guide-059669?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started"/></a>
+  <a href="https://kylosarc.github.io/tropelex/faq.html"><img src="https://img.shields.io/badge/FAQ-Reference-d97706?style=for-the-badge&logo=help-circle&logoColor=white" alt="FAQ"/></a>
 </p>
 
 <p align="center">
@@ -28,12 +28,12 @@ The same mechanisms that make an agent's memory useful also make its behavior au
 <p align="center"><img src="images/diagrams/architecture.png" alt="Tropelex architecture: clients (Claude Code/MCP, Web Dashboard, Emacs, OpenCode, CLI) talk to the Tropelex FastAPI server, which routes through Safety Gates into the Memory Manager, Decision Tree, and Tropebook, all persisted to gitignored local JSON with a hash-chained audit log"/></p>
 
 <!-- Rendered as a static image (source: images/diagrams/architecture.mmd) rather than a
-     live mermaid block -- the GitHub mobile app doesn't render mermaid and falls back to
+     live mermaid block, the GitHub mobile app doesn't render mermaid and falls back to
      raw code; a pre-rendered image displays correctly everywhere. Regenerate with:
      npx @mermaid-js/mermaid-cli -i images/diagrams/architecture.mmd -o images/diagrams/architecture.png -b white -s 2 -->
 
 
-**Docs, without running anything:** [Full Guide](https://shansimmons-eng.github.io/tropelex/) · [API Reference](https://shansimmons-eng.github.io/tropelex/api-reference.html) · [Getting Started](https://shansimmons-eng.github.io/tropelex/getting-started.html) · [FAQ](https://shansimmons-eng.github.io/tropelex/faq.html)
+**Docs, without running anything:** [Full Guide](https://kylosarc.github.io/tropelex/) · [API Reference](https://kylosarc.github.io/tropelex/api-reference.html) · [Getting Started](https://kylosarc.github.io/tropelex/getting-started.html) · [FAQ](https://kylosarc.github.io/tropelex/faq.html)
 
 **Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) · **Security:** [SECURITY.md](SECURITY.md) · **License:** [MIT](LICENSE)
 
@@ -338,7 +338,7 @@ Configure sources for the multi-source scan in Settings → Deep Research Source
 #### Repo Seek
 Finds GitHub repositories similar to the current project, scored on tech-stack/language match, description overlap, and star count, not GitHub's own literal keyword search. Each result has three actions:
 
-- **Scan Item**: profiles the result as if it were its own project and searches from there, forming a lineage tree (shown as a breadcrumb above the table). Bounded on purpose — at most 3 drill-downs per batch, at most 2 rounds deep — after which the tree is terminal. A search that turns up nothing new (everything found was already excluded, or already in the batch it was derived from) is a normal stopping point, not an error.
+- **Scan Item**: profiles the result as if it were its own project and searches from there, forming a lineage tree (shown as a breadcrumb above the table). Bounded on purpose —> at most 3 drill-downs per batch, at most 2 rounds deep —> after which the tree is terminal. A search that turns up nothing new (everything found was already excluded, or already in the batch it was derived from) is a normal stopping point, not an error.
 - **Exclude**: permanently removes a repo from this and every future scan for the project.
 - **Add Citation**: opens a prefilled modal and adds the result straight into Tropebook; the row stays in the results.
 
@@ -516,7 +516,7 @@ The server exposes a REST API at `http://localhost:8766/api/`:
 | Method | Endpoint | Description |
 |---|---|---|
 | GET | `/api/reposeek/scan?project=` | Scan for repos similar to a project's own profile; persists a new depth-0 batch |
-| POST | `/api/reposeek/{project}/batches/{batch_id}/items/scan` | "Scan Item" — profile one result as its own project, search from it, persist a child batch |
+| POST | `/api/reposeek/{project}/batches/{batch_id}/items/scan` | "Scan Item" —> profile one result as its own project, search from it, persist a child batch |
 | POST | `/api/reposeek/{project}/exclude` | Permanently exclude a repo from future scans |
 | DELETE | `/api/reposeek/{project}/exclude?url=` | Undo an exclude |
 | GET | `/api/reposeek/{project}/exclude` | List the current exclude list |
@@ -947,12 +947,12 @@ Two different things are versioned independently. Know which one you're checking
 
 ## Uninstalling
 
-There's no package manager entry to reverse — Tropelex is a git clone plus a couple of local venvs and config files. Deleting the cloned directory removes everything Tropelex ever wrote *inside* it: all `memory/` runtime state, `.env` secrets, both venvs (`.venv`, `mcp_server/.venv`). What it doesn't remove is anything an integration wrote *outside* the repo, since only you know you set those up:
+There's no package manager entry to reverse.  Tropelex is a git clone plus a couple of local venvs and config files. Deleting the cloned directory removes everything Tropelex ever wrote *inside* it: all `memory/` runtime state, `.env` secrets, both venvs (`.venv`, `mcp_server/.venv`). What it doesn't remove is anything an integration wrote *outside* the repo, since only you know you set those up:
 
 - **Claude Code / MCP.** If you only ever used the committed, project-scoped `.mcp.json` (the default: Claude Code picks it up automatically when you open the repo), there's nothing to clean up. It lives inside the repo and is gone the moment you delete it. If you additionally ran `claude mcp add tropelex -- ...` to register it in some *other* project, remove it from there with `claude mcp remove tropelex` (run from that project), or delete the `tropelex` entry from that project's own `.mcp.json`/MCP config by hand.
 - **OpenCode.** Delete `~/.config/opencode/plugins/tropelex.js`, and remove `"tropelex"` from the `"plugin"` array in `~/.config/opencode/opencode.json` (and `opencode.jsonc`, if present).
 - **Emacs.** Remove the `(add-to-list 'load-path "~/Tropelex/emacs")` line (and the `(require 'tropelex-capture)` / `(tropelex-capture-mode 1)` lines below it) from your init file.
-- **VS Code extension.** Nothing to clean up — `vscode-tropelex/` is loaded straight from the repo via VS Code's Extension Development Host (`F5`), not installed as a packaged extension, so there's no separate install location outside the repo.
+- **VS Code extension.** There is nothing to clean up:`vscode-tropelex/` is loaded straight from the repo via VS Code's Extension Development Host (`F5`). It's not installed as a packaged extension, so there's no separate install location outside the repo.
 
 There are no OS-level registry entries or background services. There's no installer, so nothing runs outside the process you start by hand.
 

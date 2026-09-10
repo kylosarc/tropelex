@@ -71,7 +71,7 @@ _DASHBOARD_LINK = (
 )
 _GITHUB_LINK_RE = re.compile(
     r'<a class="text-on-surface-variant font-medium hover:text-primary transition-colors '
-    r'text-sm hidden md:flex items-center gap-1\.5" href="https://github\.com/shansimmons-eng/tropelex" '
+    r'text-sm hidden md:flex items-center gap-1\.5" href="https://github\.com/kylosarc/tropelex" '
     r'target="_blank" rel="noopener"><span class="material-symbols-outlined text-\[16px\]">code</span> '
     r'View on GitHub</a>',
 )
@@ -87,7 +87,7 @@ _BACK_TO_DASHBOARD_LINK = (
 _GITHUB_BUTTON_RE = re.compile(
     r'<a class="px-4 py-2 rounded-xl bg-purple-500/15 border border-purple-500/30 text-purple-200 '
     r'text-xs font-semibold hover:bg-purple-500/25 transition-all flex items-center gap-2" '
-    r'href="https://github\.com/shansimmons-eng/tropelex" target="_blank" rel="noopener">\s*'
+    r'href="https://github\.com/kylosarc/tropelex" target="_blank" rel="noopener">\s*'
     r'<span class="material-symbols-outlined text-\[16px\]">code</span> View on GitHub\s*</a>',
 )
 _BACK_TO_DASHBOARD_BUTTON = (

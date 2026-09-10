@@ -5,7 +5,7 @@
 ;; Version: 0.1.0
 ;; Package-Requires: ((emacs "27.1"))
 ;; Keywords: tools, project-management, productivity
-;; URL: https://github.com/shansimmons-eng/tropelex
+;; URL: https://github.com/kylosarc/tropelex
 
 ;;; Commentary:
 

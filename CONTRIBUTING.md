@@ -14,14 +14,14 @@ in [`wishlist.md`](wishlist.md).
 ## Development setup
 
 ```bash
-git clone https://github.com/shansimmons-eng/tropelex.git
+git clone https://github.com/kylosarc/tropelex.git
 cd tropelex
 uv venv
 uv pip install -r requirements.txt
 python -m core.tropebook.web.server
 ```
 
-See [Getting Started](https://shansimmons-eng.github.io/tropelex/getting-started.html)
+See [Getting Started](https://kylosarc.github.io/tropelex/getting-started.html)
 for the full walkthrough, including optional API keys.
 
 ## Testing mandate
@@ -72,4 +72,4 @@ for how to report it privately instead.
 
 ## Questions
 
-Open an issue, or (better) check the [FAQ] first (https://shansimmons-eng.github.io/tropelex/faq.html) and read or string search the docs and/or guide to see if there's already an answer.
+Open an issue, or (better) check the [FAQ] first (https://kylosarc.github.io/tropelex/faq.html) and read or string search the docs and/or guide to see if there's already an answer.

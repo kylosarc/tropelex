@@ -17,7 +17,7 @@ policy for older tags.
 **Please don't open a public issue for a security vulnerability.** Use
 GitHub's private vulnerability reporting instead:
 
-1. Go to the [Security tab](https://github.com/shansimmons-eng/tropelex/security) of this repo.
+1. Go to the [Security tab](https://github.com/kylosarc/tropelex/security) of this repo.
 2. Click **Report a vulnerability**.
 3. Describe the issue, how to reproduce it, and its impact as concretely as
    you can.

@@ -84,7 +84,7 @@ class TestBuildDocsIndex:
         index = build_docs_index()
         readme_entries = [e for e in index if e.source == "README"]
         assert readme_entries
-        assert all(e.url.startswith("https://github.com/shansimmons-eng/tropelex#") for e in readme_entries)
+        assert all(e.url.startswith("https://github.com/kylosarc/tropelex#") for e in readme_entries)
 
     def test_material_symbols_icon_ligature_text_excluded_from_titles(self):
         """Getting Started/API Reference headings wrap a Material Symbols

@@ -7,7 +7,7 @@ Tropelex: Open-Source Deterministic Safety Tooling for Autonomous Agent Control 
 The Survival and Flourishing Fund prioritizes working, open-source alignment software built by independent developers with demonstrated execution capacity. Tropelex is an actively developed decision-memory and drift-detection framework aimed at reducing autonomous agent misbehavior. It ships with a terminal user interface (TUI), a Model Context Protocol (MCP) server, and a test suite of 2,674+ passing unit tests as of this writing.
 
 ## Shipped Architecture & Verification State
-Tropelex is a live, working codebase (`shansimmons-eng/tropelex`):
+Tropelex is a live, working codebase (`kylosarc/tropelex`):
 - **Decision Audit Graph:** Records human decisions and rationale so agent-proposed changes can be checked against stated intent.
 - **Prompt Injection & Payload Sanitization (`Context Compressor`):** Normalizes and filters untrusted inputs before context injection, reducing the surface available to injected instructions.
 - **Guardrail Decay Management (`Knowledge Decay`):** Degrades confidence scores on stale decisions over time, prompting re-verification of aging policies rather than letting them silently retain full authority.
@@ -18,7 +18,7 @@ Tropelex is a live, working codebase (`shansimmons-eng/tropelex`):
 See [SAFETY.md](../SAFETY.md) for the full mapping of these features to safety terminology, and the project [README](../README.md) for the complete feature set.
 
 ## Applicant Track Record & Prior Art
-Tropelex's author has a public prior project, [Sovereign_Mirror](https://github.com/shansimmons-eng/Sovereign_Mirror), described as a distributed governance system with mathematically verified logic gates (hybrid Jotai/Zustand/Redux state architecture). This proposal is submitted by an independent developer, not a funded lab — track record should be evaluated against the shipped code in both repositories.
+Tropelex's author has a public prior project, [Sovereign_Mirror](https://github.com/kylosarc/Sovereign_Mirror), described as a distributed governance system with mathematically verified logic gates (hybrid Jotai/Zustand/Redux state architecture). This proposal is submitted by an independent developer, not a funded lab — track record should be evaluated against the shipped code in both repositories.
 
 ## Grant Execution Plan
 SFF non-dilutive grant funding would support continued independent development focused on:

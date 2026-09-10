@@ -40,7 +40,7 @@ _HTML_SOURCES = (
     ("api-reference.html", "API Reference", "/api-reference"),
 )
 
-_README_URL = "https://github.com/shansimmons-eng/tropelex"
+_README_URL = "https://github.com/kylosarc/tropelex"
 
 _VOID_TAGS = {
     "br", "img", "input", "hr", "meta", "link", "area", "base",
