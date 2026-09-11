@@ -1,0 +1,518 @@
+{
+  "project": "tropelex",
+  "skills": {
+    "auth": {
+      "attempts": 3,
+      "successes": 3,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-07-24T02:54:57.502093+00:00",
+      "last_seen": "2026-08-16T14:27:13.833904+00:00"
+    },
+    "backend": {
+      "attempts": 3,
+      "successes": 3,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-07-24T02:54:57.502101+00:00",
+      "last_seen": "2026-08-17T02:36:02.820897+00:00"
+    },
+    "UI": {
+      "attempts": 4,
+      "successes": 2,
+      "failures": 0,
+      "score": 0.5,
+      "first_seen": "2026-07-30T00:04:39.201947+00:00",
+      "last_seen": "2026-08-17T02:36:02.820865+00:00"
+    },
+    "frontend": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-07-30T00:04:39.201965+00:00",
+      "last_seen": "2026-07-30T00:04:39.201969+00:00"
+    },
+    "Bug evaluation": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-07-30T00:05:05.000039+00:00",
+      "last_seen": "2026-07-30T00:05:05.000053+00:00"
+    },
+    "Backend": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-02T03:15:00.520163+00:00",
+      "last_seen": "2026-08-02T03:15:00.520180+00:00"
+    },
+    "Python programming": {
+      "attempts": 3,
+      "successes": 3,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-02T03:16:10.918461+00:00",
+      "last_seen": "2026-08-02T14:26:20.877249+00:00"
+    },
+    "UI changes for nav": {
+      "attempts": 1,
+      "successes": 0,
+      "failures": 0,
+      "score": 0.0,
+      "first_seen": "2026-08-02T03:43:58.645753+00:00",
+      "last_seen": "2026-08-02T03:43:58.645783+00:00"
+    },
+    "Technical writing and document production": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-04T17:15:10.288289+00:00",
+      "last_seen": "2026-08-04T17:15:10.289119+00:00"
+    },
+    "security": {
+      "attempts": 2,
+      "successes": 2,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:16:59.175062+00:00",
+      "last_seen": "2026-08-16T14:27:13.833897+00:00"
+    },
+    "adversarial hardening": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:16:59.175094+00:00",
+      "last_seen": "2026-08-16T14:16:59.175096+00:00"
+    },
+    "api": {
+      "attempts": 3,
+      "successes": 3,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:16:59.175100+00:00",
+      "last_seen": "2026-08-17T02:36:02.820882+00:00"
+    },
+    "testing": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:27:13.833866+00:00",
+      "last_seen": "2026-08-16T14:27:13.833869+00:00"
+    },
+    "python": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:27:13.833874+00:00",
+      "last_seen": "2026-08-16T14:27:13.833876+00:00"
+    },
+    "mcp": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-16T14:27:13.833889+00:00",
+      "last_seen": "2026-08-16T14:27:13.833891+00:00"
+    },
+    "memory": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-17T02:36:02.820807+00:00",
+      "last_seen": "2026-08-17T02:36:02.820840+00:00"
+    },
+    "regex": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-17T02:36:02.820906+00:00",
+      "last_seen": "2026-08-17T02:36:02.820912+00:00"
+    },
+    "prompts": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-17T02:36:02.820921+00:00",
+      "last_seen": "2026-08-17T02:36:02.820926+00:00"
+    },
+    "architecture": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-17T02:36:02.820963+00:00",
+      "last_seen": "2026-08-17T02:36:02.820969+00:00"
+    }
+  },
+  "sessions": [
+    {
+      "timestamp": "2026-07-24T02:54:57.502105+00:00",
+      "type": "manual",
+      "categories": [
+        "auth",
+        "backend"
+      ],
+      "outcome": "success",
+      "details": "Fixed JWT refresh bug"
+    },
+    {
+      "timestamp": "2026-07-30T00:04:39.201971+00:00",
+      "type": "manual",
+      "categories": [
+        "UI",
+        "frontend"
+      ],
+      "outcome": "success",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-07-30T00:05:05.000055+00:00",
+      "type": "manual",
+      "categories": [
+        "Bug evaluation"
+      ],
+      "outcome": "success",
+      "details": ""
+    },
+    {
+      "timestamp": "2026-08-02T03:13:12.292630+00:00",
+      "type": "manual",
+      "categories": [
+        "UI"
+      ],
+      "outcome": "partial",
+      "details": "UI looks good but wiring was problematic",
+      "agent": "Gemini"
+    },
+    {
+      "timestamp": "2026-08-02T03:15:00.520186+00:00",
+      "type": "manual",
+      "categories": [
+        "Backend"
+      ],
+      "outcome": "success",
+      "details": "Structural code well-handled",
+      "agent": "Claude"
+    },
+    {
+      "timestamp": "2026-08-02T03:16:10.918485+00:00",
+      "type": "manual",
+      "categories": [
+        "Python programming"
+      ],
+      "outcome": "success",
+      "details": "Solid code and understanding",
+      "agent": "Claude"
+    },
+    {
+      "timestamp": "2026-08-02T03:40:51.884937+00:00",
+      "type": "manual",
+      "categories": [
+        "Python programming"
+      ],
+      "outcome": "success",
+      "details": "Solid code and understanding",
+      "agent": "Claude"
+    },
+    {
+      "timestamp": "2026-08-02T03:43:58.645791+00:00",
+      "type": "manual",
+      "categories": [
+        "UI changes for nav"
+      ],
+      "outcome": "partial",
+      "details": "UI ideas great. Wiring problmeatic.",
+      "agent": "gemini-3.6-flash"
+    },
+    {
+      "timestamp": "2026-08-02T14:25:41.197419+00:00",
+      "type": "manual",
+      "categories": [
+        "UI"
+      ],
+      "outcome": "partial",
+      "details": "UI ideas great. Wiring problmeatic.",
+      "agent": "gemini-3.6-flash"
+    },
+    {
+      "timestamp": "2026-08-02T14:26:20.877255+00:00",
+      "type": "manual",
+      "categories": [
+        "Python programming"
+      ],
+      "outcome": "success",
+      "details": "Solid code and understanding",
+      "agent": "Claude"
+    },
+    {
+      "timestamp": "2026-08-04T17:15:10.289150+00:00",
+      "type": "manual",
+      "categories": [
+        "Technical writing and document production"
+      ],
+      "outcome": "success",
+      "details": "Excellent job. Firm grasp of the project and thoughtful question suggestion.",
+      "agent": "Gemini"
+    },
+    {
+      "timestamp": "2026-08-16T14:16:59.175109+00:00",
+      "type": "manual",
+      "categories": [
+        "security",
+        "auth",
+        "adversarial hardening",
+        "api"
+      ],
+      "outcome": "success",
+      "details": "Provided a largely relevant and well-thoughtplan for adversarial build out",
+      "agent": "Big Pickle"
+    },
+    {
+      "timestamp": "2026-08-16T14:27:13.833910+00:00",
+      "type": "manual",
+      "categories": [
+        "api",
+        "testing",
+        "python",
+        "backend",
+        "mcp",
+        "security",
+        "auth"
+      ],
+      "outcome": "success",
+      "details": "Successfully implemented first 3 priorities adversarial hardening plans",
+      "agent": "Claude"
+    },
+    {
+      "timestamp": "2026-08-17T02:36:02.820979+00:00",
+      "type": "manual",
+      "categories": [
+        "memory",
+        "UI",
+        "api",
+        "backend",
+        "regex",
+        "prompts",
+        "architecture"
+      ],
+      "outcome": "success",
+      "details": "Helped produce the prototype for memory, citations, and prompt lab",
+      "agent": "Minimax 2.7"
+    }
+  ],
+  "created": "2026-07-24T02:54:57.502079+00:00",
+  "skills_by_agent": {
+    "Gemini": {
+      "UI": {
+        "attempts": 1,
+        "successes": 0,
+        "failures": 0,
+        "score": 0.0,
+        "first_seen": "2026-08-02T03:13:12.292625+00:00",
+        "last_seen": "2026-08-02T03:13:12.292628+00:00"
+      },
+      "Technical writing and document production": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-04T17:15:10.289136+00:00",
+        "last_seen": "2026-08-04T17:15:10.289145+00:00"
+      }
+    },
+    "Claude": {
+      "Backend": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-02T03:15:00.520182+00:00",
+        "last_seen": "2026-08-02T03:15:00.520184+00:00"
+      },
+      "Python programming": {
+        "attempts": 3,
+        "successes": 3,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-02T03:16:10.918480+00:00",
+        "last_seen": "2026-08-02T14:26:20.877253+00:00"
+      },
+      "api": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833861+00:00",
+        "last_seen": "2026-08-16T14:27:13.833864+00:00"
+      },
+      "testing": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833870+00:00",
+        "last_seen": "2026-08-16T14:27:13.833873+00:00"
+      },
+      "python": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833877+00:00",
+        "last_seen": "2026-08-16T14:27:13.833879+00:00"
+      },
+      "backend": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833885+00:00",
+        "last_seen": "2026-08-16T14:27:13.833887+00:00"
+      },
+      "mcp": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833892+00:00",
+        "last_seen": "2026-08-16T14:27:13.833894+00:00"
+      },
+      "security": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833898+00:00",
+        "last_seen": "2026-08-16T14:27:13.833901+00:00"
+      },
+      "auth": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:27:13.833905+00:00",
+        "last_seen": "2026-08-16T14:27:13.833907+00:00"
+      }
+    },
+    "gemini-3.6-flash": {
+      "UI changes for nav": {
+        "attempts": 1,
+        "successes": 0,
+        "failures": 0,
+        "score": 0.0,
+        "first_seen": "2026-08-02T03:43:58.645785+00:00",
+        "last_seen": "2026-08-02T03:43:58.645790+00:00"
+      },
+      "UI": {
+        "attempts": 1,
+        "successes": 0,
+        "failures": 0,
+        "score": 0.0,
+        "first_seen": "2026-08-02T14:25:41.197413+00:00",
+        "last_seen": "2026-08-02T14:25:41.197416+00:00"
+      }
+    },
+    "Big Pickle": {
+      "security": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:16:59.175081+00:00",
+        "last_seen": "2026-08-16T14:16:59.175084+00:00"
+      },
+      "auth": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:16:59.175090+00:00",
+        "last_seen": "2026-08-16T14:16:59.175093+00:00"
+      },
+      "adversarial hardening": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:16:59.175098+00:00",
+        "last_seen": "2026-08-16T14:16:59.175099+00:00"
+      },
+      "api": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-16T14:16:59.175103+00:00",
+        "last_seen": "2026-08-16T14:16:59.175107+00:00"
+      }
+    },
+    "Minimax 2.7": {
+      "memory": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820846+00:00",
+        "last_seen": "2026-08-17T02:36:02.820855+00:00"
+      },
+      "UI": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820869+00:00",
+        "last_seen": "2026-08-17T02:36:02.820874+00:00"
+      },
+      "api": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820884+00:00",
+        "last_seen": "2026-08-17T02:36:02.820889+00:00"
+      },
+      "backend": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820900+00:00",
+        "last_seen": "2026-08-17T02:36:02.820904+00:00"
+      },
+      "regex": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820915+00:00",
+        "last_seen": "2026-08-17T02:36:02.820919+00:00"
+      },
+      "prompts": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820928+00:00",
+        "last_seen": "2026-08-17T02:36:02.820957+00:00"
+      },
+      "architecture": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-17T02:36:02.820971+00:00",
+        "last_seen": "2026-08-17T02:36:02.820976+00:00"
+      }
+    }
+  }
+}

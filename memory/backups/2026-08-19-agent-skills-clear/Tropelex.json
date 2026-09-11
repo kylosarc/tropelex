@@ -1,0 +1,55 @@
+{
+  "project": "Tropelex",
+  "skills": {
+    "ui": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-18T08:48:28.566926+00:00",
+      "last_seen": "2026-08-18T08:48:28.567048+00:00"
+    },
+    "frontend": {
+      "attempts": 1,
+      "successes": 1,
+      "failures": 0,
+      "score": 1.0,
+      "first_seen": "2026-08-18T08:48:28.567116+00:00",
+      "last_seen": "2026-08-18T08:48:28.567132+00:00"
+    }
+  },
+  "sessions": [
+    {
+      "timestamp": "2026-08-18T08:48:28.567168+00:00",
+      "type": "feature",
+      "categories": [
+        "ui",
+        "frontend"
+      ],
+      "outcome": "success",
+      "details": "Implemented Research tab with Repo Seek UI: scan button, loading spinner, results table with 5 columns, error handling for 404/429/500/network/no-project, responsive layout. All acceptance criteria me",
+      "agent": "unspecified"
+    }
+  ],
+  "created": "2026-08-18T08:48:28.566881+00:00",
+  "skills_by_agent": {
+    "unspecified": {
+      "ui": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-18T08:48:28.567082+00:00",
+        "last_seen": "2026-08-18T08:48:28.567106+00:00"
+      },
+      "frontend": {
+        "attempts": 1,
+        "successes": 1,
+        "failures": 0,
+        "score": 1.0,
+        "first_seen": "2026-08-18T08:48:28.567142+00:00",
+        "last_seen": "2026-08-18T08:48:28.567157+00:00"
+      }
+    }
+  }
+}

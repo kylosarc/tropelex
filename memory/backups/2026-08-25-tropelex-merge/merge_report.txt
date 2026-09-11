@@ -1,0 +1,32 @@
+=== Tropelex/tropelex merge report ===
+
+decisions: Tropelex=243 tropelex=257 -> merged=306
+  conflict resolved: 15fe9be48aed <- tropelex
+  conflict resolved: eb193139c6c8 <- Tropelex
+  conflict resolved: 0949bfc5cf02 <- tropelex
+  conflict resolved: da3f562b3ee3 <- Tropelex
+  conflict resolved: d2baa333e275 <- tropelex
+  conflict resolved: 3c8a579fad02 <- tropelex
+  conflict resolved: 27b6ea405be1 <- Tropelex
+
+goals: Tropelex=43 tropelex=56 -> merged=63
+  conflict resolved: a071bedc9e6d <- tropelex (status=achieved, newer)
+
+cost_events: Tropelex=38 tropelex=32 -> merged=42 (deduped by id)
+
+market.bets: Tropelex=36 tropelex=27 -> merged=41
+
+session_history: 27/28 -> 33
+session_shapes: 3/4 -> 6
+friction_history: 48/48 -> 48
+friction_zones: 81/81 -> 81
+quick_captures: 1/1 -> 1
+
+audit_log: Tropelex=145 tropelex=124 -> deduped=178 (hash chain rebuilt from scratch)
+
+ghost_scan: took tropelex (more recent last_scan_ts)
+agent_surface_audit: took tropelex (more recent last_scan_ts)
+
+confidence_summary recomputed: 306 decisions scored, avg=0.88
+
+WRITING to /home/retroporter/Tropelex/memory/Tropelex.json

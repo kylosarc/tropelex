@@ -1,0 +1,3 @@
+{"debug":"Starting connection with timeout of 30000ms","timestamp":"2026-09-01T23:41:08.910Z","sessionId":"527386c8-034c-4bb3-a9b7-ac9ab757ed3e","cwd":"/home/retroporter/Tropelex"}
+{"debug":"Connection failed after 117ms (ENOENT): Executable not found in $PATH: \"ai-usage-stats\"","timestamp":"2026-09-01T23:41:09.027Z","sessionId":"527386c8-034c-4bb3-a9b7-ac9ab757ed3e","cwd":"/home/retroporter/Tropelex"}
+{"error":"Connection failed (ENOENT): Executable not found in $PATH: \"ai-usage-stats\"","timestamp":"2026-09-01T23:41:09.027Z","sessionId":"527386c8-034c-4bb3-a9b7-ac9ab757ed3e","cwd":"/home/retroporter/Tropelex"}

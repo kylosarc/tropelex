@@ -33,9 +33,9 @@ The same mechanisms that make an agent's memory useful also make its behavior au
      npx @mermaid-js/mermaid-cli -i images/diagrams/architecture.mmd -o images/diagrams/architecture.png -b white -s 2 -->
 
 
-**Docs, without running anything:** [Full Guide](https://kylosarc.github.io/tropelex/) · [API Reference](https://kylosarc.github.io/tropelex/api-reference.html) · [Getting Started](https://kylosarc.github.io/tropelex/getting-started.html) · [FAQ](https://kylosarc.github.io/tropelex/faq.html)
+**Docs, without running anything:** [Full Guide](https://kylosarc.github.io/tropelex/) · [API Reference](https://kylosarc.github.io/tropelex/api-reference.html) · [Getting Started](https://kylosarc.github.io/tropelex/getting-started.html) · [FAQ](https://kylosarc.github.io/tropelex/faq.html) ([`FAQ.md`](FAQ.md))
 
-**Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) · **Security:** [SECURITY.md](SECURITY.md) · **License:** [MIT](LICENSE)
+**Contributing:** [CONTRIBUTING.md](CONTRIBUTING.md) · **Security:** [SECURITY.md](SECURITY.md) · **FAQ:** [FAQ.md](FAQ.md) · **License:** [MIT](LICENSE)
 
 ---
 
@@ -884,6 +884,7 @@ Tropelex/
 ├── .env                     # API keys (gitignored)
 ├── requirements.txt
 ├── AGENTS.md                # Instructions for AI agents
+├── FAQ.md                   # 79-question technical & governance FAQ
 ├── README.md
 ├── design.md                # Architecture documentation
 └── wishlist.md              # Future feature roadmap

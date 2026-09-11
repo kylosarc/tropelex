@@ -7623,3 +7623,905 @@ f1d8eb2 fix: agent identity gaps in Decision Market/Personas, add hard-refresh t
 
 **Open questions / next steps:** <!-- fill in -->
 
+
+---
+
+## Session: 2026-08-30 01:42 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  13 files changed, 928 insertions(+), 77 deletions(-)
+
+**Recent commits:**
+```
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+78ec75d fix: restore version badge on hero image, add rotating-screens GIF to README
+84efe72 feat: replace README hero with a real-screenshot fan composite
+f1d8eb2 fix: agent identity gaps in Decision Market/Personas, add hard-refresh troubleshooting tip; docs wording pass
+```
+
+**Files in play:** `README.md SESSION_LOG.md docs/cais-summary.md docs/far-ai-summary.md docs/sff-summary.md images/diagrams/architecture.mmd images/diagrams/architecture.png images/diagrams/safety-gate.mmd images/diagrams/safety-gate.png images/diagrams/workflow.mmd images/diagrams/workflow.png memory/prefetch/test-project_genealogy.json wishlist.md GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 13:35 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 802 insertions(+)
+
+**Recent commits:**
+```
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+78ec75d fix: restore version badge on hero image, add rotating-screens GIF to README
+84efe72 feat: replace README hero with a real-screenshot fan composite
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 20:44 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  6 files changed, 879 insertions(+)
+
+**Recent commits:**
+```
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+78ec75d fix: restore version badge on hero image, add rotating-screens GIF to README
+84efe72 feat: replace README hero with a real-screenshot fan composite
+```
+
+**Files in play:** `SAFETY.md SESSION_LOG.md docs/cais-summary.md docs/far-ai-summary.md docs/sff-summary.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 21:05 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 858 insertions(+)
+
+**Recent commits:**
+```
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+78ec75d fix: restore version badge on hero image, add rotating-screens GIF to README
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 21:06 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 880 insertions(+)
+
+**Recent commits:**
+```
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+78ec75d fix: restore version badge on hero image, add rotating-screens GIF to README
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 21:13 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 914 insertions(+)
+
+**Recent commits:**
+```
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 21:19 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 936 insertions(+)
+
+**Recent commits:**
+```
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-30 23:56 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  4 files changed, 960 insertions(+), 2 deletions(-)
+
+**Recent commits:**
+```
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+```
+
+**Files in play:** `SESSION_LOG.md UI/animated_tropebook_dashboard/code.html core/goals/router.py memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:00 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  5 files changed, 983 insertions(+), 4 deletions(-)
+
+**Recent commits:**
+```
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+6e3eff0 docs: add session-lifecycle workflow diagram to README
+```
+
+**Files in play:** `SESSION_LOG.md UI/animated_tropebook_dashboard/code.html core/goals/detector.py core/goals/router.py memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:06 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1014 insertions(+)
+
+**Recent commits:**
+```
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:11 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1048 insertions(+)
+
+**Recent commits:**
+```
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:15 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1070 insertions(+)
+
+**Recent commits:**
+```
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+c165463 fix: wire 8 dead Overview-tab widgets to already-fetched data
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:33 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1104 insertions(+)
+
+**Recent commits:**
+```
+5412a76 fix: don't corrupt hard-wrapped source text in goal candidate content
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 00:39 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1138 insertions(+)
+
+**Recent commits:**
+```
+5412a76 fix: don't corrupt hard-wrapped source text in goal candidate content
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+af5b1ee docs: document 6 shipped safety mechanisms, add Evaluation & Limitations to grant docs
+9c9876e docs: static-render mermaid diagrams for mobile, refresh grant summaries, log distribution/platform wishlist items
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 07:31 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1208 insertions(+)
+
+**Recent commits:**
+```
+264ce17 feat: ordered gate-rule policy layer (#101)
+a321d62 feat: uninstall docs (#97) + Drift-Bench scenario expansion (#100)
+5412a76 fix: don't corrupt hard-wrapped source text in goal candidate content
+3b86e34 fix: eliminate duplicate explicit_goal match, detect structured **Purpose:** fields
+a16c5a2 docs: log #100-104, remaining grant-strengthening engineering to wishlist
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 07:42 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1290 insertions(+)
+
+**Recent commits:**
+```
+ef6a74a docs: publish handoff packet protocol spec (#104)
+8acf56c feat: real prevention pilot data (#102) + core/safety/ re-export index (#103)
+264ce17 feat: ordered gate-rule policy layer (#101)
+a321d62 feat: uninstall docs (#97) + Drift-Bench scenario expansion (#100)
+5412a76 fix: don't corrupt hard-wrapped source text in goal candidate content
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 14:07 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1324 insertions(+)
+
+**Recent commits:**
+```
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+8acf56c feat: real prevention pilot data (#102) + core/safety/ re-export index (#103)
+264ce17 feat: ordered gate-rule policy layer (#101)
+a321d62 feat: uninstall docs (#97) + Drift-Bench scenario expansion (#100)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 14:36 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1394 insertions(+)
+
+**Recent commits:**
+```
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+8acf56c feat: real prevention pilot data (#102) + core/safety/ re-export index (#103)
+264ce17 feat: ordered gate-rule policy layer (#101)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 14:39 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1416 insertions(+)
+
+**Recent commits:**
+```
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+8acf56c feat: real prevention pilot data (#102) + core/safety/ re-export index (#103)
+264ce17 feat: ordered gate-rule policy layer (#101)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 14:46 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1438 insertions(+)
+
+**Recent commits:**
+```
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+8acf56c feat: real prevention pilot data (#102) + core/safety/ re-export index (#103)
+```
+
+**Files in play:** `../../SESSION_LOG.md ../../memory/prefetch/test-project_genealogy.json ../../GRANT_INTRO.md ../../HANDOFF.md ../../memory/backups/2026-08-19-agent-skills-clear/ ../../memory/backups/2026-08-25-tropelex-merge/ ../../memory/backups/2026-08-26-duplicate-decision-cleanup/ ../../uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 15:04 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1460 insertions(+)
+
+**Recent commits:**
+```
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 15:05 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1494 insertions(+)
+
+**Recent commits:**
+```
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 15:06 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1516 insertions(+)
+
+**Recent commits:**
+```
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+ef6a74a docs: publish handoff packet protocol spec (#104)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-08-31 15:22 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1562 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 00:19 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1584 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 00:33 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1606 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 00:35 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1628 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 00:36 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1650 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 09:26 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 1822 insertions(+)
+
+**Recent commits:**
+```
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+45e3044 feat: repeatable accessibility scan tooling (axe-core + Playwright)
+0f02266 feat: versioning policy + safe cross-machine export/import
+4b736c2 fix: command-palette decision search ignored word order, crowding out real matches
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json wishlist.md GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 10:24 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1754 insertions(+)
+
+**Recent commits:**
+```
+217027a feat: LLM-as-intent-check, narrow and budgeted (#106)
+dbbcc2c feat: assertion-weakening detector, real movement on Drift-Bench 0.0 (#107)
+64249bb feat: handoff constraint attestation (#108)
+622f832 feat: schema-version-awareness check + harden account/benchmarks export-import
+634051c fix: WCAG accessibility violations found by axe-core (54 -> 0)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ uv.lock `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 10:43 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  2 files changed, 1824 insertions(+)
+
+**Recent commits:**
+```
+a8c4528 feat: Safety Surface v1 freeze + external review invitation (#112)
+ca26a6e feat: Public Drift-Bench release artifact (#111)
+4266c07 feat: LangGraph producer spike for cross-framework handoff compat (#110)
+217027a feat: LLM-as-intent-check, narrow and budgeted (#106)
+dbbcc2c feat: assertion-weakening detector, real movement on Drift-Bench 0.0 (#107)
+```
+
+**Files in play:** `SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 15:00 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3180 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+121b5db docs: swap README hero image, style pass on SAFETY.md
+6b3a6e6 feat: benchmarks + sync export/import provenance (core/identity.py)
+f5512a3 fix: instance-secret export leak + account export/import provenance
+a8c4528 feat: Safety Surface v1 freeze + external review invitation (#112)
+ca26a6e feat: Public Drift-Bench release artifact (#111)
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md images/tropelex-hero-static.jpg memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 17:29 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3438 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+3d90381 feat: dashboard-wide documentation + research search
+121b5db docs: swap README hero image, style pass on SAFETY.md
+6b3a6e6 feat: benchmarks + sync export/import provenance (core/identity.py)
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md images/tropelex-hero-static.jpg memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:06 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3496 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+3d90381 feat: dashboard-wide documentation + research search
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md images/tropelex-hero-static.jpg memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:13 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3542 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:25 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3564 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:34 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3586 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:41 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3608 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ memory/backups/2026-09-01-stale-mcp-logs/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:42 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3630 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ memory/backups/2026-09-01-stale-mcp-logs/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-01 18:43 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  3 files changed, 3652 insertions(+), 386 deletions(-)
+
+**Recent commits:**
+```
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+a94bed6 docs: log #115 (dashboard-wide documentation + research search) as shipped
+```
+
+**Files in play:** `FAQ.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ memory/backups/2026-09-01-stale-mcp-logs/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
+
+---
+
+## Session: 2026-09-07 16:55 CDT
+
+**Branch:** `main`
+
+**Diff summary:**  4 files changed, 3728 insertions(+), 404 deletions(-)
+
+**Recent commits:**
+```
+e24a940 fix: check_schema_version_awareness async markers & ext-diff robustification
+0df4aa4 docs: add missing hero image, update test count in README
+4b29d02 docs: log GUIDE anchoring follow-up under #115
+2d2935e feat: finer-grained GUIDE anchors + keyword-landing fallback
+c9bb988 chore: remove stray session transcript files from repo root
+```
+
+**Files in play:** `FAQ.md README.md SESSION_LOG.md memory/prefetch/test-project_genealogy.json GRANT_INTRO.md HANDOFF.md memory/backups/2026-08-19-agent-skills-clear/ memory/backups/2026-08-25-tropelex-merge/ memory/backups/2026-08-26-duplicate-decision-cleanup/ memory/backups/2026-09-01-stale-mcp-logs/ pr_changes.diff `
+
+**Open questions / next steps:** <!-- fill in -->
+
