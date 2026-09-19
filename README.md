@@ -121,8 +121,6 @@ Tropelex doubles as empirical safety infrastructure for autonomous agents. For t
 > Nothing here claims the agent's judgment is trustworthy. The claim is narrower: a decision can't be recorded without an explicit basis, and every write leaves a trace that's expensive to fake and cheap to check.
 
 - [SAFETY.md](./SAFETY.md): mapping developer features to AI safety & control terminology.
-- [CAIS Grant Technical Summary](./docs/cais-summary.md) (objective drift and reward hacking prevention).
-- [FAR AI Grant Technical Summary](./docs/far-ai-summary.md): cooperative multi-agent coordination and calibration.
 - [SFF Grant Technical Summary](./docs/sff-summary.md) (independent developer, open-source safety infrastructure).
 - [Agent Handoff Packet Protocol Spec](./docs/protocols/handoff-packet-spec.md): the wire format, independent of the Python implementation.
 
