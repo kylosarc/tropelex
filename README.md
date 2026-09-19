@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center"><img src="images/troplex_hero_upscaled_4x" alt="Tropelex — The Rationale Engine for AI"/></p>
+<p align="center"><img src="images/troplex_hero_upscaled_4x.png" alt="Tropelex — The Rationale Engine for AI"/></p>
 
 > [!NOTE]
 > **AI Memory System with Safety and Alignment Infrastructure**
