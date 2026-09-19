@@ -124,9 +124,22 @@ class TestProviderWaterfall:
 
     @pytest.mark.asyncio
     async def test_all_providers_failing_returns_error_not_crash(self, monkeypatch):
-        with patch("ddgs.DDGS", side_effect=ImportError, create=True), \
-             patch("duckduckgo_search.DDGS", side_effect=RuntimeError("boom"), create=True):
+        # Simulate DuckDuckGo fallback failing. We patch the actual import sites
+        # within auto_research to avoid trying to import modules that don't exist
+        # in the CI environment. This tests graceful error handling.
+        
+        # Mock DDGS class that raises when instantiated
+        class MockDDGSFail:
+            def __enter__(self):
+                raise RuntimeError("DuckDuckGo unavailable")
+            def __exit__(self, *args):
+                pass
+        
+        # Patch both possible import paths for DDGS
+        with patch.dict('sys.modules', {'ddgs': MagicMock(DDGS=MockDDGSFail)}), \
+             patch.dict('sys.modules', {'duckduckgo_search': MagicMock(DDGS=MockDDGSFail)}):
             result = await auto_research("query", _FakeTropebook(), max_results=5)
+        
         assert result["added"] == 0
         assert result["provider"] is None
         assert "error" in result
