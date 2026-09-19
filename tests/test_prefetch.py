@@ -7,6 +7,7 @@ Covers both success AND error paths for every public function.
 
 import json
 import tempfile
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -59,15 +60,40 @@ from core.prefetch.router import prefetch_router, _select_active_goals
 #  Helpers
 # ---------------------------------------------------------------------------
 
+def _relative_timestamp(days_ago: int = 0) -> str:
+    """
+    Generate a timestamp relative to now for time-dependent tests.
+    
+    This ensures tests remain valid as time passes, rather than using
+    hardcoded dates that become stale and cause confidence decay issues.
+    
+    Args:
+        days_ago: How many days in the past (0 = today)
+    
+    Returns:
+        ISO 8601 timestamp string with Z suffix
+    """
+    dt = datetime.now(timezone.utc) - timedelta(days=days_ago)
+    return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+
+
 def _decision(
     text: str,
     did: str = "dec-1",
-    ts: str = "2026-07-01T00:00:00Z",
+    ts: str | None = None,
     context: str = "",
     categories: list[str] | None = None,
     edges: list[dict] | None = None,
 ) -> dict:
-    """Create a decision dict matching the project memory schema."""
+    """
+    Create a decision dict matching the project memory schema.
+    
+    Args:
+        ts: Timestamp string. If None, defaults to 30 days ago (arbitrary but stable default).
+    """
+    if ts is None:
+        ts = _relative_timestamp(days_ago=30)
+    
     d = {"id": did, "decision": text, "timestamp": ts, "context": context}
     if categories:
         d["categories"] = categories
@@ -232,7 +258,7 @@ class TestComputeConfidence:
     def test_compute_confidence_delegates_to_knowledge_decay(self):
         """Delegates to knowledge_decay.score_decision."""
         # Arrange
-        decision = _decision("Use testing framework", ts="2026-07-15T00:00:00Z")
+        decision = _decision("Use testing framework", ts=_relative_timestamp(days_ago=10))
 
         # Act
         score = compute_confidence_component(decision)
@@ -244,7 +270,7 @@ class TestComputeConfidence:
     def test_compute_confidence_recent_decision(self):
         """Recent decision has high confidence."""
         # Arrange
-        decision = _decision("Recent decision", ts="2026-07-18T00:00:00Z")
+        decision = _decision("Recent decision", ts=_relative_timestamp(days_ago=7))
 
         # Act
         score = compute_confidence_component(decision)
@@ -271,11 +297,12 @@ class TestComputeConfidence:
         same decision scored alone."""
         # Arrange -- 60d old so the score isn't already pinned at ~1.0
         # ceiling with no room for a reference boost to show up.
-        decision = _decision("Use FastAPI for backend routing", ts="2026-05-20T00:00:00Z")
+        old_timestamp = _relative_timestamp(days_ago=60)
+        decision = _decision("Use FastAPI for backend routing", ts=old_timestamp)
         corpus = [
             decision,
-            _decision("Use FastAPI for authentication", did="dec-2", ts="2026-05-20T00:00:00Z"),
-            _decision("Use FastAPI for middleware", did="dec-3", ts="2026-05-20T00:00:00Z"),
+            _decision("Use FastAPI for authentication", did="dec-2", ts=old_timestamp),
+            _decision("Use FastAPI for middleware", did="dec-3", ts=old_timestamp),
         ]
 
         # Act
@@ -1396,7 +1423,7 @@ class TestScoreDecisionsMetadata:
     def test_scored_item_metadata_includes_confidence_tier(self):
         from core.prefetch.router import _score_decisions
 
-        decisions = [_decision("Recent decision about caching", ts="2026-07-18T00:00:00Z")]
+        decisions = [_decision("Recent decision about caching", ts=_relative_timestamp(days_ago=7))]
 
         scored = _score_decisions(decisions, "caching task", DEFAULT_WEIGHTS)
 
@@ -1439,7 +1466,7 @@ def _mock_memory(decisions=None, agent_skills=None, goals=None):
             {
                 "id": "d1",
                 "decision": "Use pytest for testing",
-                "timestamp": "2026-07-15T00:00:00Z",
+                "timestamp": _relative_timestamp(days_ago=10),
                 "context": "testing framework choice",
                 "categories": ["testing"],
             },
